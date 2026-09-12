@@ -1,0 +1,4 @@
+[submodule ".claude/skills/ozon-seller-api"]
+	path = .claude/skills/ozon-seller-api
+	url = https://github.com/miilv/ozon-seller-api-skill.git
+	branch = main

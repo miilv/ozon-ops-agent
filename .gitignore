@@ -1,0 +1,26 @@
+# СЕКРЕТЫ — НИКОГДА в git
+.env
+.env.*
+!.env.example
+*.credentials*
+
+# данные и тяжёлое
+data/
+*.sqlite
+*.zip
+logs/
+
+# личное / персональные данные
+*.pdf
+.DS_Store
+~$*
+
+# кэши
+__pycache__/
+node_modules/
+
+# транзиентные артефакты мониторинга конкурентов (регенерируются каждым прогоном)
+state/competitor_candidates.json
+state/match_decisions.json
+state/competitors_pulse.md
+state/competitors_sales_pulse.md

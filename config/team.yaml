@@ -1,0 +1,14 @@
+# Кто в команде и кто что апрувит. tg_id — числовой Telegram user id
+# (узнать: написать боту и посмотреть chat_log, или @userinfobot).
+team:
+  - name: Владелец
+    tg_id: 100000001        # ← заменить
+    role: владелец
+    approves: [all]
+  - name: Оператор
+    tg_id: 100000002        # ← заменить
+    role: операционка
+    approves: [pricing, promos]
+
+# id группового чата команды. В .env (TG_TEAM_CHAT) хранится с префиксом -100.
+team_chat: 100000003        # ← заменить

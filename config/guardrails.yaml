@@ -1,0 +1,15 @@
+pricing:
+  min_margin_pct_of_cost: 10
+  hard_floor: netback >= себес (ниже — только T3-апрув)
+  max_change_per_step_pct: 5
+  max_changes_per_day_per_sku: 2
+  freeze: [распродажи Ozon (11.11, ЧП), пиковые часы]
+  nds_5_105: true
+promos:
+  auto_exit_if_margin_below_pct: 0
+  fbo_auto_actions: alert
+reviews:
+  auto_reply_rating_gte: 4
+  drafts_for_rating_lte: 3
+subscriptions:
+  new_paid_feature: alert
